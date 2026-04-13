@@ -9,7 +9,7 @@ const Hero = () => {
 
             {/* <!-- Icons and Hero Content --> */}
             <div className="relative z-10 max-w-243 min-h-100 mx-auto text-center flex items-center justify-center">
-                <div className="space-y-4 text-black text-center flex items-center justify-center flex-col w-[75%] z-10">
+                <div className="space-y-4 text-black text-center flex items-center justify-center flex-col w-[75%] z-10 mt-[6.5rem]">
                     <h1 className="text-4xl font-bold text-[3rem] ">
                         Airbnb Assistants For
                     </h1>
@@ -23,8 +23,8 @@ const Hero = () => {
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat.{" "}
                     </p>
-                    <ScheduleBtn text="Schedule A Meeting" />
-                    <a href="#pricing" className="underline hover:no-underline">
+                    <ScheduleBtn text="Schedule A Meeting" className="mt-[2.44rem]" />
+                    <a href="#pricing" className="underline hover:no-underline mt-[1.69rem]">
                         See Pricing
                     </a>
                 </div>
