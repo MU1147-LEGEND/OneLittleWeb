@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000014_1px,transparent_1px),linear-gradient(to_bottom,#00000014_1px,transparent_1px)] bg-size-[5.5rem_5.5rem]"></div>
 
             {/* <!-- Icons and Hero Content --> */}
-            <div className="relative z-10 max-w-243 min-h-100 mx-auto text-center flex items-center justify-center">
-                <div className="space-y-4 text-black text-center flex items-center justify-center flex-col w-[75%] z-10 mt-[6.5rem]">
+            <div className="relative z-10 max-w-243 min-h-100 mx-auto text-center flex items-center justify-center lg:pb-0 pb-7">
+                <div className="space-y-4 text-black text-center flex items-center justify-center flex-col w-[75%] z-10 mt-26 md:mb-10 ">
                     <h1 className="text-4xl font-bold text-[3rem] ">
                         Airbnb Assistants For
                     </h1>

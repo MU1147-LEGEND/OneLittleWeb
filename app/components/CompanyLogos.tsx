@@ -191,10 +191,11 @@ const CompanyLogos = () => {
     };
 
     return (
-        <section className="overflow-hidden bg-[#F6F6F6]">
+        <section className="overflow-hidden">
+            <h3 className="mb-9 mt-13 text-center text-[1.25rem] font-semibold">Trusted by leaders in 50+ industries</h3>
             <div
                 ref={railRef}
-                className="mx-auto flex cursor-grab items-center gap-4 overflow-x-auto px-4 py-4 select-none active:cursor-grabbing [scrollbar-width:none] [touch-action:pan-y] [&::-webkit-scrollbar]:hidden"
+                className="mx-auto flex cursor-grab items-center gap-4 overflow-x-auto px-4 py-4 select-none active:cursor-grabbing [scrollbar-width:none] [touch-action:pan-y] [&::-webkit-scrollbar]:hidden bg-[#F6F6F6]"
                 onMouseEnter={() => {
                     motionState.current.hoverPaused = true;
                 }}
