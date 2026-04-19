@@ -23,7 +23,7 @@ const ServiceCard = ({
                             alt=""
                             width={28}
                             height={28}
-                            className="h-21 w-7 object-contain"
+                            className="h-21 w-auto object-contain"
                         />
                     ) : null}
                 </div>
@@ -38,7 +38,7 @@ const ServiceCard = ({
                 </p>
             </div>
 
-            <button className="rounded-full border border-[#FF4F7A] px-6 py-3 text-base font-medium text-[#FF4F7A] transition-colors duration-200 hover:bg-[#FF4F7A] hover:text-white">
+            <button className="rounded-full border border-[#FF4F7A] px-6 py-3 text-base font-medium text-[#FF4F7A] transition-colors duration-200 hover:bg-[#FF4F7A] hover:text-white mt-auto">
                 {ctaLabel}
             </button>
         </article>
